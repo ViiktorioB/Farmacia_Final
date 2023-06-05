@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #bedae6;
+  }
+  
+  h1 {
+    font-size: 40px;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+  
+  input[type="text"],
+  input[type="date"],
+  select {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  input[type="submit"],
+  button {
+    border-radius: 3px;
+    margin-top: 20px;
+    padding: 10px 70px;
+    border: none;
+    background-color: #262e8d;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover,
+  button:hover {
+    background-color: #0f007d;
+  }
+  
+  #form {
+    width: 30%;
+    height: 40vh;
+    margin-left: 35%;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #b2ceda;
+    border-radius: 4px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #gestio {
+    position: absolute;
+    top: 10px;
+    right: 40px;
+  }
+  
+  #gestioButton {
+    display: block;
+    padding: 15px 30px 15px 30px;
+    margin-top: 10px;
+    background-color: #262e8d;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  #gestioButton:hover {
+    background-color: #0f007d;
+    color: rgb(135, 0, 0);
+  }
+  

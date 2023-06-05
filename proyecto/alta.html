@@ -1,0 +1,42 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="login.js"> </script>
+    <link rel="stylesheet" href="styleAlta.css">
+    <title>Realizar un alta</title>
+</head>
+<body onload="getPaciente();getMedicine()">
+
+<div id="form">
+    <h1>Realizar un alta</h1>
+<div id="">
+    ID del xip físico: <input type="text" id="idXip"><br>
+</div>
+
+
+<div>
+    Paciente: <select id="patient" name="patient">>
+    </select><br>
+</div>
+
+<div>
+    Medicamento: <select id="medicine" name="idMed">
+    </select><br>
+</div>
+
+<div>
+    Fecha límite: <input type="date" id="fechaLimite" name="date"><br>
+</div>
+
+
+
+<input type="submit" value="Enviar" onclick="enviar1()">
+</div>
+
+
+<div id="gestio"> <button  id="gestioButton" onclick="goToGestio()">Ir a gestion</button></div>
+
+</body>
+</html>

@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #bedae6;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  
+  #alta {
+    position: absolute;
+    top: 10px;
+    left: 40px;
+  }
+
+  #altaButton{
+    display: block;
+    padding: 15px 30px 15px 30px;
+    margin-top: 10px;
+    background-color: #262e8d;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  #altaButton:hover{
+    background-color: #0f007d;
+    color: green;
+}
+
+  
+  
+  #logout {
+    position: absolute;
+    top: 10px;
+    right: 40px;
+  }
+
+  #logoutButton{
+    display: block;
+    padding: 15px 30px 15px 30px;
+    margin-top: 10px;
+    background-color: #262e8d;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  #logoutButton:hover {
+    background-color: #0f007d;
+    color: rgb(135, 0, 0);
+}
+ 
+ 
+  #tablasButton{
+    font-size: 80px;
+    padding: 10px 300px 10px 300px;
+    margin-top: 10px;
+    background-color: #b2ceda;
+    color: #000000;
+    border: none;
+    border-radius: 3px;
+    font-size: 52px;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#tablasButton:hover{
+    background-color: #0f007d;
+    color: white;
+}
+  #tablas {
+    text-align: left;
+  }
+  
+  #tableContainerr {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  #tableContainer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  h1 {
+    margin-top: 0;
+    font-size: 80px;
+    color: #000000;
+    margin-bottom: 0;
+  }
+  h4{
+    font-size: 16px;
+    color: #000000;
+    margin-top: 10px;
+  }
+  
+
+  /* TABLA DE GESTION*/
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #000000;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+
+  tr{
+    background-color: #f2f2f2;
+  }
+  
